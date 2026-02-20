@@ -32,10 +32,27 @@
   --color-gray-900: #111;
   --color-gray-700: #333;
   --color-gray-500: #666;
+
+  /* Creams — warm neutrals */
   --color-cream-50:  #f7f7f4;
   --color-cream-100: #f2f1ed;
   --color-cream-200: #e6e5e0;
-  --color-cream-300: #D8D6CE;
+  --color-cream-300: #d8d6ce;
+  --color-cream-400: #c9c7bf;
+
+  /* Greens — soft, sagey accent palette */
+  --color-green-50:  #f4f7f4;
+  --color-green-100: #e3efe5;
+  --color-green-200: #c7e0cd;
+  --color-green-300: #9bc7aa;
+  --color-green-400: #6ba381;
+  --color-green-500: #458664;
+  --color-green-600: #2f6a4d;
+  --color-green-700: #1a4d33;
+  --color-green-800: #052e19;
+  --color-green-900: #001104;
+
+  /* Ink — primary text colour */
   --color-ink:       #26251e;
   --color-ink-50:    rgba(38, 37, 30, 0.5);
 
@@ -44,13 +61,15 @@
    * e.g. --color-surface → bg-surface, --color-text-primary → text-text-primary */
   --color-surface:        var(--color-cream-50);
   --color-card:           var(--color-cream-100);
-  --color-text-primary:   var(--color-ink);
+  --color-text-primary:   var(--color-green-900);
   --color-text-muted:     var(--color-ink-50);
   --color-text-secondary: var(--color-gray-500);
-  --color-action-primary:          var(--color-gray-900);
-  --color-action-primary-hover:    var(--color-gray-700);
-  --color-action-secondary:        var(--color-cream-200);
-  --color-action-secondary-hover:  var(--color-cream-300);
+
+  /* Actions are now green-on-cream */
+  --color-action-primary:          var(--color-green-800);  /* darker primary */
+  --color-action-primary-hover:    var(--color-green-700);  /* even darker on hover */
+  --color-action-secondary:        var(--color-cream-200);  /* subtle green */
+  --color-action-secondary-hover:  var(--color-cream-300);  /* slightly stronger on hover */
 
   /* ── Component — map to semantic tokens ──
    * These power specific UI elements.
